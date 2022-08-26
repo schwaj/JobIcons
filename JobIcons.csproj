@@ -16,7 +16,7 @@
     <AssemblyName>JobIcons</AssemblyName>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
@@ -52,7 +52,7 @@
     <None Remove="lib\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DalamudPackager" Version="2.1.2" />
+    <PackageReference Include="DalamudPackager" Version="2.1.8" />
     <PackageReference Include="ILRepack" Version="2.0.18" GeneratePathProperty="true" />
     <PackageReference Include="System.Collections.Specialized" Version="4.3.0" />
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.242703">
@@ -102,7 +102,7 @@
       <DeleteAssemblies Include="$(TargetDir)*.dll" Exclude="$(TargetPath)" />
       <DeleteAssemblies Include="$(TargetDir)*.pdb" Exclude="$(TargetPath)" />
       <DeleteAssemblies Include="$(TargetDir)JobIcons.deps.json" Exclude="$(TargetPath)" />
-      <DeleteAssemblies Include="$(TargetDir)ref\**"/>
+      <DeleteAssemblies Include="$(TargetDir)ref\**" />
     </ItemGroup>
     <Message Text="Deleting @(DeleteAssemblies)" Importance="high" />
     <Delete Files="@(DeleteAssemblies)" />
