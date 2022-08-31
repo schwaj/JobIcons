@@ -1,10 +1,17 @@
 ﻿{
   "Author": "haplo, daemitus, Loskh, wozaiha",
   "Name": "JobIcons",
+  "InternalName": "XIVAuras",
   "Description": "Names are dumb, use icons instead.",
   "RepoUrl": "https://github.com/schwaj/JobIcons",
+  "ApplicableVersion": "any",
   "DalamudApiLevel": 7,
+  "IsHide": "False",
   "Punchline": "Icons!",
+  "IsTestingExclusive": "False",
+  "DownloadCount": 0,
+  "LastUpdate": 0,
+  "LoadPriority": 69420,
   "DownloadLinkInstall": "https://github.com/schwaj/JobIcons/raw/master/latest.zip",
   "DownloadLinkTesting": "https://github.com/schwaj/JobIcons/raw/master/latest.zip",
   "DownloadLinkUpdate": "https://github.com/schwaj/JobIcons/raw/master/latest.zip"
