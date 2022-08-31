@@ -5,7 +5,7 @@
   "RepoUrl": "https://github.com/schwaj/JobIcons",
   "DalamudApiLevel": 7,
   "Punchline": "Icons!",
-  "DownloadLinkInstall": "https://github.com/schwaj/JobIcons/raw/master/release.zip",
-  "DownloadLinkTesting": "https://github.com/schwaj/JobIcons/raw/master/release.zip",
-  "DownloadLinkUpdate": "https://github.com/schwaj/JobIcons/raw/master/release.zip"
+  "DownloadLinkInstall": "https://github.com/schwaj/JobIcons/raw/master/latest.zip",
+  "DownloadLinkTesting": "https://github.com/schwaj/JobIcons/raw/master/latest.zip",
+  "DownloadLinkUpdate": "https://github.com/schwaj/JobIcons/raw/master/latest.zip"
 }
